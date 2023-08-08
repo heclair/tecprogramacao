@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "um": "ts-node ./src/um",
+    "dois": "ts-node ./src/dois",
+    "tres": "ts-node ./src/tres"
   },
   "keywords": [],
   "author": "",
