@@ -9,7 +9,8 @@
     "tres": "ts-node ./src/ex03",
     "quatro": "ts-node ./src/ex04",
     "cinco": "ts-node ./src/ex05",
-    "seis": "ts-node ./src/ex06"
+    "seis": "ts-node ./src/ex06",
+    "sete": "ts-node ./src/ex07"
   },
   "keywords": [],
   "author": "",
