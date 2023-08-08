@@ -1,4 +1,4 @@
-function operar(v1, v2) {
+function operar(v1:number[], v2:string[]):number|string[] {
   let res = [];
   for (let i = 0; i < v1.length; i++) {
     res[i] = v1[i] + v2[i];
