@@ -1,6 +1,10 @@
 // substitui os termos de busca pelo novo caractere no texto de entrada
-const substituir = function (entrada:string, letra:string, novo:string):string[] {
-  let res:string [] = [];
+const substituir = function (
+  entrada: string,
+  letra: string,
+  novo: string
+): string[] {
+  let res: string[] = [];
   for (let i = 0; i < entrada.length; i++) {
     if (entrada[i] == letra) {
       res.push(novo);
