@@ -3,7 +3,7 @@ const substituir = function (
   entrada: string,
   letra: string,
   novo: string
-): string[] {
+) {
   let res: string[] = [];
   for (let i = 0; i < entrada.length; i++) {
     if (entrada[i] == letra) {
