@@ -1,7 +1,7 @@
 // gera um número inteiro aleatório no intervalo [0,99]
-const aleatorio = () => Math.floor(Math.random() * 100);
+const aleatorio: Function = () => Math.floor(Math.random() * 100);
 // gera um array de números aleatórios
-const aleatorios = (quantidade: number): any => {
+const aleatorios: Function = (quantidade: number): any => {
   const res: number[] = [];
   for (let i = 0; i < quantidade; i++) {
     // obtém um número aleatório e coloca no final do array
